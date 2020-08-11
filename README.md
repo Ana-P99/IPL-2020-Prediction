@@ -1,0 +1,2 @@
+# IPL-2020-Prediction
+A data set of all IPL matches from 2008-2019 was extracted from espncricinfo website. The player points of each player were calculated using regression analysis to calculate the team weight. Further, exploratory data analysis and Recursive feature elimination were performed to find out the main variables which affect the outcome of a match. The variables were then fed on to various models to calculate the training and testing accuracy of the model. Hyper tuned XG Boost gave the highest accuracy and was then deployed to predict the winner of IPL 2020.
